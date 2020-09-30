@@ -1,0 +1,49 @@
+
+# Additional site info:
+project_title: "Mining Goodreads"
+project_subtitle: "Literary Reception Studies at Scale"
+
+project_sponsor: 
+ - name: "Price Lab for Digital Humanities"
+ - name: "Humanities and Human Flourishing Project"
+ - name: "Penn Libraries"
+
+principal_investigator: 
+ - name: James F. English
+   title: "Professor, English"
+
+principal_developer:
+ - name: Scott Enderle
+   title: "DH Specialist Librarian, Penn Libraries"
+ - name: Rahul Dhakecha
+   title: "Masters Student, CIS"
+
+project_developer: 
+ - name: Tianli Han
+   title: "Masters Student, CIS"
+ - name: Sharvan Shah
+   title: "Masters Student, CIS"
+
+project_research_assistant:
+ - name: Daniel Sample
+   title: "BA, English"
+ - name: Alex Anderson
+   title: "BA, Comp Lit"
+ - name: Savannah Lambert
+   title: "BA, English"
+
+project_consultant:
+ - name: James Pawelski
+   title: "Positive Psychology Center"
+ - name: Lyle Unger
+   title: "Professor, CIS and Psychology"
+ - name: Louis Tay
+   title: "Professor, Psychology, Purdue University"
+
+maintaining_institution:
+ - name: "The Price Lab for Digital Humanities"
+   url: https://pricelab.sas.upenn.edu/
+ - name: "Penn Libraries Digital Scholarship"
+   url: https://guides.library.upenn.edu/digital-scholarship
+
+

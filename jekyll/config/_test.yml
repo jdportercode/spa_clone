@@ -1,0 +1,3 @@
+baseurl: "/_goodreads-test"
+destination: "/var/www/html/_goodreads-test/"
+url: "http://138.197.13.28"

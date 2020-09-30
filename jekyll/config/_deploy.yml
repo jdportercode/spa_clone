@@ -1,0 +1,3 @@
+baseurl: "/goodreads"
+destination: "/var/www/html/goodreads/"
+url: "https://revisions.pennds.org"

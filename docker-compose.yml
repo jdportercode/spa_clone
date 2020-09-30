@@ -10,14 +10,13 @@ services:
             && jekyll serve --watch --force_polling"
         ports: 
             - "4000:4000"
-        depends_on:
-            - data_to_map
-    data_to_map:
+    bokeh:
         build:
             context: .
-            dockerfile: ./compose/local/data_to_map/Dockerfile
-        image: data_to_map_image
+            dockerfile: ./compose/local/bokeh/Dockerfile
+        # This said data_to_map_image and I'm not sure what it meant
+        image: bokeh_image
         volumes:
-            - ./data_to_map:/srv/data_to_map
+            - ./bokeh:/srv/bokeh
             - ./jekyll:/srv/jekyll
-        command: python -u data_to_map/map.py
+        command: python -u bokeh/vis.py
